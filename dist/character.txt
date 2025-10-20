@@ -1,0 +1,9 @@
+Name: wow
+Class: Fighter
+Stats:
+STR: 12
+DEX: 8
+CON: 8
+INT: 9
+WIS: 10
+CHA: 12

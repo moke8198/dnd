@@ -1,0 +1,9 @@
+Name: asd
+Class: Fighter
+Stats:
+STR: 9
+DEX: 11
+CON: 18
+INT: 10
+WIS: 10
+CHA: 10
