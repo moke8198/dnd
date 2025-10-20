@@ -1,0 +1,21 @@
+# Python cache
+**/.pytest_cache
+**/__pycache__
+**/*.pyc
+**/.coverage
+
+# Build artifacts
+build/
+dist/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# vs code stuff
+.vscode
+*.code-workspace
+
+# Output
+character.txt
