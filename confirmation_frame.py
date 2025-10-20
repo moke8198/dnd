@@ -22,6 +22,9 @@ def create_confirmation_frame(root, player_name, chosen_class, final_stats):
             f.write("Stats:\n")
             for stat, value in final_stats.items():
                 f.write(f"{stat}: {value}\n")
+        for child in frame.winfo_children():
+            if isinstance(child, tk.Label) and child.cget("text").startswith("Saved to"):
+                child.destroy()
         tk.Label(frame, text="Saved to character.txt!", font=("Arial", 12), fg="green").pack(pady=5)
 
     tk.Button(frame, text="Save to File", command=save_to_file, font=("Arial", 12)).pack(pady=10)
